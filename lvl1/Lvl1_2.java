@@ -1,3 +1,4 @@
+package lvl1;
 public class Lvl1_2 {
 
     public static void main(String[] args) {

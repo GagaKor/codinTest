@@ -1,3 +1,4 @@
+package lvl1;
 import java.util.Scanner;
 
 public class Lvl1_11 {

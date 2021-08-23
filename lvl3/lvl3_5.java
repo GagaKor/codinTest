@@ -1,4 +1,3 @@
-package lvl3;
 
 import java.util.Scanner;
 

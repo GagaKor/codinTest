@@ -1,14 +1,13 @@
-
 import java.util.Scanner;
 
-public class lvl3_3 {
+public class lvl3_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int r = 0;
-        for (int i = 1; i < n + 1; i++) {
-            r += i;
+        String a = "*";
+        for (int i = 0; i < n; i++) {
+            System.out.println(a);
+            a+="*";
         }
-        System.out.println(r);
     }
 }

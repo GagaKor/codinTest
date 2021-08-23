@@ -1,14 +1,14 @@
-
 import java.util.Scanner;
 
-public class lvl3_2 {
+public class lvl3_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        for (int i = 0; i < t; i++) {
+        int n = sc.nextInt();
+        
+        for (int i = 1; i <= n; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            System.out.println(a+b);
+            System.out.println("Case #"+i+": "+a+" + "+b+" = "+(a+b));
         }
     }
 }
